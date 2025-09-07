@@ -8,7 +8,7 @@ vim.loader.enable()
 go.lualine_info_extras = false
 go.snacks_animate = true
 go.codeium_cmp_hide = false
-go.lazygit_config = false
+go.lazygit_config = true
 go.lazyvim_cmp = "blink"
 go.lazyvim_picker = "snacks"
 go.trouble_lualine = false
@@ -23,10 +23,10 @@ go.autoformat = true
 -- Font
 go.gui_font_default_size = 10
 go.gui_font_size = go.gui_font_default_size
-go.gui_font_face = "Maple Mono NF"
+go.gui_font_face = "JetBrainsMono Nerd Font"
 
 -- Enable EditorConfig integration
-go.editorconfig = true
+go.editorconfig = false
 
 -- Root dir detection
 go.root_spec = {
@@ -44,7 +44,7 @@ o.cmdheight = 0
 o.showtabline = 0
 
 -- Enable spell checking
-o.spell = true
+o.spell = false
 o.spelllang:append("es")
 
 -- Backspacing and indentation when wrapping
