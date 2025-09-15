@@ -9,7 +9,6 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.nix" },
-  { import = "astrocommunity.pack.nvchad-ui" },
   { import = "astrocommunity.pack.prettier" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
