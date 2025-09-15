@@ -3,6 +3,7 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+  { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.hyprlang" },
   { import = "astrocommunity.pack.lua" },
